@@ -7,9 +7,12 @@ import repair from "../img/repair.png";
 const CatalogueIndex = () => {
     return(
         <div>
-        <header class="Principalcatalogue">
-            <div class="imageCatalogueHeader"><h1>Principal Catalogue</h1></div>
-        </header>
+        <a href="/">
+            <header class="Principalcatalogue">
+                <div class="imageCatalogueHeader"><h1>Principal Catalogue</h1></div>
+            </header>
+        </a>
+
 
         <div class="catalogueContendDiv">
         

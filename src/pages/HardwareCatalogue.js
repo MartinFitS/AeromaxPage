@@ -26,7 +26,7 @@ const HardwareCatalogue = () => {
     return(
         <div>
             <header className="hardwareHeader">
-            <a href="/">
+            <a href="/catalogue-index">
                     <div className="headerImageHardware">
                     </div>
                 </a>

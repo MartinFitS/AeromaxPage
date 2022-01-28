@@ -27,7 +27,7 @@ function SoftwareCatalogue() {
     return(
         <div>
             <header className="softwareHeader">
-            <a href="/">
+            <a href="/catalogue-index">
                     <div className="headerImagesoftware">
                     </div>
                 </a>

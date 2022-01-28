@@ -24,7 +24,7 @@ const RepairCatalogue = () => {
     return(
         <div>
         <header className="repairHeader">
-        <a href="/">
+        <a href="/catalogue-index">
                 <div className="headerImageRepair">
                 </div>
             </a>
