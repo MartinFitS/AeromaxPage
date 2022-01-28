@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Source Code Pro', monospace;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+::-webkit-scrollbar {display: none;}
+
+@keyframes moverDeDerechaAIzquierda {
+      0%{
+          transform: translate(100%);
+      }
+}
+
+@keyframes moverDeIzquierdaADerecha {
+      0%{
+          transform: translate(-100%);
+      }
+}
+
+@keyframes moverDeArribaHaciaAbajo {
+  0%{
+      transform: translatey(-100%);
+  }
+}
+
+@keyframes moverDeAbajoHaciaArriba {
+  0%{
+      transform: translatey(100%);
+  }
+}

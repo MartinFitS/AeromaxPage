@@ -1,0 +1,23 @@
+@keyframes moverDeDerechaAIzquierda {
+    0%{
+        transform: translate(100%);
+    }
+}
+
+@keyframes moverDeIzquierdaADerecha {
+    0%{
+        transform: translate(-100%);
+    }
+}
+
+@keyframes moverDeArribaHaciaAbajo {
+0%{
+    transform: translatey(-100%);
+}
+}
+
+@keyframes moverDeAbajoHaciaArriba {
+0%{
+    transform: translatey(100%);
+}
+}

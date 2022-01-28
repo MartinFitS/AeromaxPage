@@ -1,0 +1,52 @@
+a{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+
+.hardwareHeader{
+    width: 100%;
+    height: 300px;
+}
+
+.headerImagesoftware{
+    background-size: cover;
+    margin: 0 auto;
+    width: 70%;
+    height: 350px;
+    background-image: url("../img/software_banner.png");
+}
+
+.softwareHeader h1 {
+    color: rgb(82, 82, 82);
+    padding-top: 131px;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.container_products-software {
+    width: 100%;
+    height: auto;
+    margin-top: 300px;
+    padding-top: 177px;
+}
+
+.div_products-software{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+@media(max-width:912px){
+    .headerImagesoftware {
+        width: 91%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media(max-width:320px){
+    .softwareHeader h1 {
+        padding-top: 23px;
+        font-size: 20px;
+    }
+}
