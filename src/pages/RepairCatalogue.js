@@ -48,7 +48,7 @@ const RepairCatalogue = () => {
             <div className="contact-div">
                 <h1>If you have another problem, contact the technician directly</h1>
                 <p>Send him a WhatsApp message directly with the button below. Where you explain in detail the problem of your equipment</p>
-                <a target="_blank" href="https://wa.me/3143386885?text=Hola%20tengo%20un%20problema%20con%20mi%20computadora">Contact the technician</a>
+                <a target="_blank" href="https://wa.me/3141101085?text=Hola%20tengo%20un%20problema%20con%20mi%20computadora">Contact the technician</a>
             </div>
         </div>
     </div>
