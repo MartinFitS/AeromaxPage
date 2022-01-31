@@ -37,6 +37,46 @@ a{
     margin: 0 auto;
 }
 
+.contact-section{
+    margin-top: 90px;
+    width: 100%;
+    height: 200px;
+}
+
+.contact-div{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contact-div h1{
+    color: rgb(46, 46, 46);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.contact-div p{
+    color: rgb(94, 95, 95);
+    padding-top: 14px;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+.contact-div a{
+    color: #0882b6;
+    padding: 10px;
+    border: 1px solid #0882b6;
+    font-size: 15px;
+    margin-left: 40%;
+}
+
+.contact-div a:hover{
+    transition: 300ms;
+    color: #ffffff;
+    background-color: #0882b6;
+    border: 1px solid #0882b6;
+}
+
 @media(max-width:912px){
     .headerImagerepair {
         width: 91%;
@@ -44,7 +84,41 @@ a{
     }
 }
 
+@media(max-width:393px){
+    .headerImageRepair {
+        width: 100%;
+        height: 164px;
+    }
+    .container_products-repair {
+        margin-top: 100px;
+        padding-top: 30px;
+    }
+    .contact-div {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .contact-div h1 {
+        color: rgb(46, 46, 46);
+        text-align: left;
+        font-size: 26px;
+        font-weight: 100;
+    }
+    .contact-div p {
+        font-size: 12px;
+    }
+    .contact-div a {
+        margin-left: 25%;
+    }
+}
+
 @media(max-width:390px){
+    .contact-div a {
+        color: #0882b6;
+        padding: 7px;
+        border: 1px solid #0882b6;
+        font-size: 15px;
+        margin-left: 24%;
+    }
     .headerImageRepair {
         background-size: cover;
         margin: 0 auto;

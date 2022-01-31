@@ -1,0 +1,82 @@
+.index-404{
+    margin-top: 190px;
+    width: 100%;
+    height: auto;
+}
+
+.div-404{
+    margin: 0 auto;
+    width: 40%;
+    height: auto;
+}
+
+.h1-404{
+    width: 100%;
+    height: auto;
+}
+
+.h1-404 h1{
+    color: rgb(65, 65, 65);
+    text-align: center;
+    font-size: 150px;
+}
+
+.h2-404{
+    width: 100%;
+    height: auto;
+}
+
+.h2-404 h2{
+    font-weight: 200;
+    color: rgb(65, 65, 65);
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.p-404{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.p-404 p {
+    color: rgb(100, 100, 100);
+    font-weight: 100;
+    text-align: center;
+}
+
+.btn-404{
+    width: 100%;
+    height: auto;
+}
+
+.btn-404 a{
+    border: 1px solid #0882b6;
+    color: #0882b6;
+    padding: 6px;
+    margin-left: 40%;
+}
+
+.btn-404 a:hover{
+    transition: 500ms;
+    border: 1px solid #0882b6;
+    color: white;
+    background-color: #0882b6;
+    padding: 6px;
+    margin-left: 40%;
+}
+
+@media(max-width:1024px){
+    .btn-404 a {
+        margin-left: 31%;
+    }
+}
+
+@media(max-width:414px){
+    .div-404 {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+}

@@ -5,6 +5,7 @@ import CatalogueIndex from "../pages/CatalogueIndex";
 import SoftwareCatalogue from "../pages/SoftwareCatalogue";
 import HardwareCatalogue from "../pages/HardwareCatalogue";
 import RepairCatalogue from "../pages/RepairCatalogue";
+import NotFound from "../pages/NotFound";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/catalogue-hardware" element={<HardwareCatalogue/>}/>
         <Route exact path="/catalogue-software" element={<SoftwareCatalogue/>}/>
         <Route exact path="/catalogue-repair" element={<RepairCatalogue/>}/>
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
     </BrowserRouter>
   );

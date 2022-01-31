@@ -77,7 +77,7 @@ const Principal = () => {
             <div className="services-info_card">
                 <h1>Computer repair</h1>
                 <p>Computer fixes quote.</p>
-                <a href="/catalogue-repair"><button>Contact the technician</button></a>
+                <a href="/catalogue-repair"><button>Repair Catalogue</button></a>
             </div>
         </div>
     </div>
@@ -104,9 +104,9 @@ const Principal = () => {
 
         <div className="socialMedia">
             <ul>
-                <li><a href="/">Facebook</a></li>
-                <li><a href="/">Instagram</a></li>
-                <li><a href="/">GitHub</a></li>
+                <li><a target="_blank" href="https://www.facebook.com/martin.sernadiaz">Facebook</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/mserna10/?hl=es-la">Instagram</a></li>
+                <li><a target="_blank" href="https://github.com/MartinFitS">GitHub</a></li>
             </ul>
         </div>
     </footer>
