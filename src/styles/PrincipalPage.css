@@ -9,8 +9,17 @@ header{
     display: flex;
 }
 
+.logo_title{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    background-image: url("../img/logoAeromax.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .header-title {
-    margin-top: 217px;
+    margin-top: 130px;
     width: 40%;
     height: auto;
 }
@@ -29,9 +38,9 @@ header{
 
 .header-title button{
     border-radius: 4px;
-    color: rgb(68, 143, 68);
-    border: 1px solid rgb(68, 143, 68);
-    background-color: transparent;
+    color: white;
+    background-color: rgb(36, 83, 122);
+    border: 1px solid rgb(36, 83, 122);
     margin-top: 15px;
     margin-left: 25px;
     width: 100px;
@@ -41,8 +50,9 @@ header{
 .header-title button:hover{
     transition: 350ms;
     cursor: pointer;
-    background-color: rgb(68, 143, 68);
-    color: white;
+    background-color: white;
+    border: 1px solid rgb(36, 83, 122);
+    color: rgb(36, 83, 122);
 }
 
 .header-image{

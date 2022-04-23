@@ -15,6 +15,7 @@ const RepairCatalogue = () => {
     useEffect(()=>{
         fetchApi();
     },[]);
+    
     let areThereProducts = !products;
 
     let filterCatalogueRepair = areThereProducts === false ? products.filter((i)=>{

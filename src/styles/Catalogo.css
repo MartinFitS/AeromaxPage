@@ -1,0 +1,223 @@
+.menuContainer {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    padding: 0px;
+}
+
+.cardMenu {
+    text-align: center;
+    width: 49%;
+    height: 300px;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.titulo_catalogo{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.titulo_catalogo h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 100;
+
+}
+
+.titulo_catalogo:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.primero{
+    background-image: url("../img/audifonosMenu.png");
+    background-size: contain;
+    background-position-x: 60%;
+}
+
+.primero h1{
+    font-size: 27px;
+    color: white;
+    font-weight: 100;
+}
+
+.primero:hover{
+    transition: 250ms;
+    opacity: .7;
+}
+
+.cardmenuTitle{
+    width: 100%;
+    height: auto;
+    margin-top: 40%;
+}
+
+.segundo{
+    background-image: url("../img/usbcatalogo.png");
+    background-size: cover;
+    background-position-y: 10px;
+}
+
+.segundo:hover{
+    transition: 250ms;
+    opacity: .7;
+}
+
+.segundo h1{
+    color: rgb(168, 154, 154);
+    font-weight: 100;
+}
+
+.tercera{
+    background-image: url("../img/microsdCatalogo.png");
+    background-size: cover;
+}
+
+.tercera:hover{
+    transition: 250ms;
+    opacity: .7;
+}
+
+.tercera h1{
+    color: white;
+    font-weight: 100;
+}
+
+.cuarta{
+    background-image: url("../img/tecladosymousebanner.png");
+    background-size: cover;
+}
+
+.cuarta:hover{
+    transition: 250ms;
+    opacity: .7;
+}
+
+.cuarta h1{
+    color: white;
+    font-weight: 100;
+}
+
+.five{
+    background-image: url("../img/monitorBanner.png");
+    background-size: cover;
+    background-position-x: -70px;
+}
+
+.five:hover{
+    transition: 250ms;
+    opacity: .7;
+}
+
+.five h1{
+    color: white;
+    font-weight: 100;
+}
+
+.six{
+    background-image: url("../img/parlantes.png");
+    background-size: cover;
+}
+
+.six:hover{
+    transition: 250ms;
+    opacity: .7;
+}
+
+.six h1{
+    color: white;
+    font-weight: 100;
+}
+
+.seven{
+    background-image: url("../img/tinntas.png");
+    background-size: cover;
+    background-position-x: -80px;
+}
+
+.seven:hover{
+    transition: 250ms;
+    opacity: .7;
+}
+
+.seven h1{
+    color: rgb(163, 159, 159);
+    font-weight: 100;
+}
+
+.eight{
+    background-image: url("../img/cablesBanner.png");
+    background-size: cover;
+}
+.eight:hover{
+    transition: 250ms;
+    opacity: .7;
+}
+
+.eight h1{
+    color: white;
+    font-weight: 100;
+}
+
+.nine{
+    background-image: url("../img/tarjetaRedBanner.png");
+    background-size: cover;
+}
+.nine:hover{
+    transition: 250ms;
+    opacity: .7;
+}
+
+.nine h1{
+    color: white;
+    font-weight: 100;
+}
+
+.ten{
+    background-image: url("../img/fuentesDePoderBanner.png");
+    background-size: cover;
+    background-position-x: -120px;
+}
+
+.ten:hover{
+    transition: 250ms;
+    opacity: .7;
+}
+
+.ten h1{
+    color: white;
+    font-weight: 100;
+}
+
+.eleven{
+    background-image: url("../img/reguladoresBanner.png");
+    background-size: cover;
+}
+
+.eleven:hover{
+    transition: 250ms;
+    opacity: .7;
+}
+
+.eleven h1{
+    color: white;
+    font-weight: 100;
+}
+
+.twelve{
+    background-image: url("../img/todoslosproductos.png");
+    background-size: cover;
+}
+
+.twelve:hover{
+    transition: 250ms;
+    opacity: .7;
+}
+
+.twelve h1{
+    color: white;
+    font-weight: 100;
+}

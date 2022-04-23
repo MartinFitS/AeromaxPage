@@ -1,0 +1,51 @@
+.containerAll_Micro{
+    width: 100%;
+    height: auto;
+}
+
+.headerMicro{
+    width: 20%;
+    height: 300px;
+    background-image: url("../img/micro.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 40%;
+}
+
+.headerMicro h1{
+    margin-top: 10px;
+    font-weight: 100;
+    text-align: center;
+    color: rgb(124, 124, 124);
+}
+
+.container_Micro{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.products_Micro{
+    width: 100%;
+    height: auto;
+    padding-left: 7%;
+}
+
+@media(max-width:768px){
+    .products_Micro {
+        padding-left: 0%;
+    }
+}
+
+@media(max-width:414px){
+    .headerMicro h1 {
+        font-size: 25px;
+    }
+    .headerMicro {
+        width: 100%;
+        height: 250px;
+        background-size: contain;
+        margin-left: 0%;
+        background-position-x: 81px;
+    }
+}

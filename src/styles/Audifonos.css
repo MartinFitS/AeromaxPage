@@ -1,0 +1,51 @@
+.containerAudifonos{
+    width: 100%;
+    height: auto;
+}
+
+.headerAudifonos{
+    width: 50%;
+    height: 300px;
+    background-image: url("../img/audifonos.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 25%;
+    background-position-x: center;
+}
+
+.headerAudifonos h1{
+    margin-top: 10px;
+    font-weight: 100;
+    text-align: center;
+    color: rgb(124, 124, 124);
+}
+
+.container_Audifonos{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.products_Audifonos{
+    width: 100%;
+    height: auto;
+    padding-left: 7%;
+}
+
+@media(max-width:768px){
+    .products_Audifonos {
+        padding-left: 0%;
+    }
+}
+
+@media(max-width:414px){
+    .headerAudifonos h1 {
+        font-size: 25px;
+    }
+    .headerAudifonos {
+        width: 100%;
+        height: 227px;
+        background-size: contain;
+        margin-left: 0%;
+    }
+}

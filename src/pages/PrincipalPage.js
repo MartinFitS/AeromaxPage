@@ -41,24 +41,25 @@ const Principal = () => {
         <div>
         <div className="header-content">
         <div className="header-title">
-            <h1>Aeromax</h1>
-            <p>Experts in computing, web service, sale of technological equipment.</p>
-            <a href="/catalogue-index"><button>See catalog</button></a>
+            <div className="logo_title"></div>
+            <h1>Ciber Aerom@x</h1>
+            <p>Venta y reparación de computadoras, laptops, formateos , instalación de programas, respaldos , redes y más.</p>
+            <a href="/catalogo"><button>Ver Productos</button></a>
         </div>
         <div className="header-image">
                 <img src={computadoraImage}  id="computadora" alt=""/>
         </div>
     </div>
-    <h1 className="title-div_services">Our Services</h1>
+    <h1 className="title-div_services">Nuestros Servicios</h1>
     <div className="services">
 
         <div id="animacion1" className="services-card">
             <img src={audifonosImage} id="animacion1" alt=""/>
 
             <div className="services-info_card">
-                <h1>Hardware sale</h1>
-                <p>From headphones, mice, keyboards etc.</p>
-                <a href="/catalogue-hardware"><button>Hardaware Catalogue</button></a>
+                <h1>Venta de Hardaware</h1>
+                <p>Desde audifonos, teclados, memorias etc.</p>
+                <a href="/catalogo"><button>Ir a ver</button></a>
             </div>
         </div>
 
@@ -66,32 +67,32 @@ const Principal = () => {
             <img src={windowsImage} id="animacion2" alt=""/>
 
             <div className="services-info_card">
-                <h1>Software installation</h1>
-                <p>Microsoft programs, windows or any other program.</p>
-                <a href="/catalogue-software"><button>Software Catalogue</button></a>
+                <h1>Instalación de Programas</h1>
+                <p>Windows, word, excel etc.</p>
+                <a href="/catalogue-software"><button>Ir a ver</button></a>
             </div>
         </div>
         <div id="animacion3" className="services-card">
             <img src={pcGamerImage} id="animacion3" alt=""/>
 
             <div className="services-info_card">
-                <h1>Computer repair</h1>
-                <p>Computer fixes quote.</p>
-                <a href="/catalogue-repair"><button>Repair Catalogue</button></a>
+                <h1>Reparación de computadoras</h1>
+                <p>Cotización de arreglos informáticos.</p>
+                <a href="/catalogue-repair"><button>Ir a ver</button></a>
             </div>
         </div>
     </div>
 
-    <h1 className="h1-Qualities">Qualities</h1>
+    <h1 className="h1-Qualities">Cualidades</h1>
 
     <div className="qualities">
         <div className="qualities-rowFirst">
-            <div className="qualities-card_one" id="imagen1"><div className="titleCard-image"><h1>The Fastest</h1></div></div>
-            <div className="qualities-card_two" id="imagen2"><div className="titleCard-image"><h1>Experts</h1></div></div>
+            <div className="qualities-card_one" id="imagen1"><div className="titleCard-image"><h1>Los mas rápidos</h1></div></div>
+            <div className="qualities-card_two" id="imagen2"><div className="titleCard-image"><h1>Expertos</h1></div></div>
         </div>
         <div className="qualities-rowSecond">
-            <div className="qualities-card_three" id="imagen3"><div className="titleCard-image"><h1>The Most Effective</h1></div></div>
-            <div className="qualities-card_four" id="imagen4"><div className="titleCard-image"><h1>The Most Accessible</h1></div></div>
+            <div className="qualities-card_three" id="imagen3"><div className="titleCard-image"><h1>Los mas efectivos</h1></div></div>
+            <div className="qualities-card_four" id="imagen4"><div className="titleCard-image"><h1>Los mas accesibles</h1></div></div>
         </div>
     </div>
 
